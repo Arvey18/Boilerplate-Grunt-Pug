@@ -3,5 +3,3 @@ build/
 .tmp/
 node_modules/
 bower_components/
-app/public/.DS-Store
-grunt/.DS-Store
