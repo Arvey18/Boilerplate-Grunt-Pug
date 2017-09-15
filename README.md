@@ -46,7 +46,6 @@ Development Server: [http://localhost:8080]
 
 
 ## Something Missing?
-```
 
-    If there is missing on this boilerplate or any ideas you want to share for<br>this boilerplate just let me know. You can contact me through email: arve505@gmail.com
+If there is missing on this boilerplate or any ideas you want to share for <br>this boilerplate just let me know. You can contact me through email: arve505@gmail.com
 
