@@ -29,7 +29,8 @@ This Boilerplate is created with Grunt as task runner and PUG for templating.<br
 
 ```
 
-Development Server: [http://localhost:8080]
+### Development Server: [http://localhost:8080]
+
 ```bash
 
     grunt
@@ -45,7 +46,7 @@ Development Server: [http://localhost:8080]
 ```
 
 
-## Something Missing?
+### Something Missing?
 
 If there is missing on this boilerplate or any ideas you want to share for <br>this boilerplate just let me know. You can contact me through email: arve505@gmail.com
 
