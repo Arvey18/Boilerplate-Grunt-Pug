@@ -3,3 +3,4 @@
 To start
 
 npm install
+bower install
