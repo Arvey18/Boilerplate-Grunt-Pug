@@ -1,0 +1,41 @@
+
+meta(http-equiv="Content-Type", content="text/html", charset="utf-8")
+meta(http-equiv="x-ua-compatible", content="ie=edge")
+meta(name="viewport",content="width=device-width, initial-scale=1")
+meta(name="robots", content="noindex")
+
+link(rel='shortcut icon', href='images/favicon.png')
+
+title #{headerTagsData.pageTitle}
+
+<meta name="description" content="#{headerTagsData.description}" />
+<meta name="keywords" content="#{headerTagsData.keywords}" />
+
+//og meta tags
+if headerTagsData.slug == "home"
+	<meta property="og:url" content="#{globalData.siteLinks.production}" />
+else
+	<meta property="og:url" content="#{globalData.siteLinks.production}/#{headerTagsData.slug}/" />
+
+<meta property="og:title" content="#{headerTagsData.pageTitle}" />
+<meta property="og:type" content="#{headerTagsData.ogType}" />
+<meta property="og:image" content="#{globalData.siteLinks.production}/public/images/#{headerTagsData.ogImage}" />
+<meta property="og:image:type" content="image/jpg">
+
+link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css")
+script(type="text/javascript", src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js")
+
+if headerTagsData.slug == "home"
+	//bootsrap-theme
+	link(rel="stylesheet", href="public/bootstrap/css/bootstrap-theme.min.css")
+	//bootstrap
+	link(rel="stylesheet", href="public/bootstrap/css/bootstrap.min.css")
+	//app
+	link(rel="stylesheet", href="css/app.min.css")
+else
+	//bootsrap-theme
+	link(rel="stylesheet", href="../public/bootstrap/css/bootstrap-theme.min.css")
+	//bootstrap
+	link(rel="stylesheet", href="../public/bootstrap/css/bootstrap.min.css")
+	//app
+	link(rel="stylesheet", href="../css/app.min.css")

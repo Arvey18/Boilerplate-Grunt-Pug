@@ -1,0 +1,14 @@
+doctype 5
+html(lang="en")
+	head
+		include ../includes/header_tags.pug
+body
+	div#App
+		block navigation
+			-var selected = 'home'; //default
+
+		-var menu = { 'home': '/', 'about': '/about' };
+		include ../components/navigation.pug
+		block content
+	block scripts
+		include ../includes/scripts.pug

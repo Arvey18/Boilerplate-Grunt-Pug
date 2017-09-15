@@ -1,0 +1,6 @@
+{
+	"siteLinks": {
+		"staging": "www.staging.com",
+    "production": "www.production.com"
+	}
+}

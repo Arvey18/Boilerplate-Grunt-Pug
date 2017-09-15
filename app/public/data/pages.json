@@ -1,0 +1,30 @@
+[
+	{
+	  "id": "0",
+	  "pageTitle": "Boilerplate of Grunt and Pug",
+	  "slug": "home",
+	  "description": "This is for Homepage",
+	  "keywords": "home, website",
+	  "ogImage": "home-og-image.jpg",
+	  "ogType": "website"
+
+	},
+	{
+	  "id": "1",
+	  "pageTitle": "404 | Boilerplate of Grunt and Pug",
+	  "slug": "404",
+	  "description": "This is for 404",
+	  "keywords": "404, website",
+	  "ogImage": "404-og-image.jpg",
+	  "ogType": "website"
+	},
+	{
+	  "id": "2",
+	  "pageTitle": "About | Boilerplate of Grunt and Pug",
+	  "slug": "about",
+	  "keywords": "about, website",
+	  "description": "This is for About",
+	  "ogImage": "about-og-image.jpg",
+	  "ogType": "website"
+	}
+]

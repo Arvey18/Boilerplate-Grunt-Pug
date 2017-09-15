@@ -1,0 +1,82 @@
+html, body{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	display: block;
+	font-size: 15px;
+	line-height: 20px;
+	color: $black;
+	font-family: 'Montserrat';
+	font-weight: 400;
+}
+
+.flex-row{
+	display: flex;
+	flex-flow: row wrap;
+	.one{flex: 1;}
+	.two{flex: 2;}
+	.three{flex: 3;}
+	.four{flex: 4;}
+	.five{flex: 5;}
+	&>div{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	&>div:first-child{
+		padding-left: 0px;
+	}
+	&>div:last-child{
+		padding-right: 0px;
+	}
+}
+
+.flex-column{
+	display: flex;
+	flex-flow: column wrap;
+	.one{flex: 1;}
+	.two{flex: 2;}
+	.three{flex: 3;}
+	.four{flex: 4;}
+	.five{flex: 5;}
+	&>div{
+		padding-bottom: 15px;
+		padding-top: 15px;
+	}
+	&>div:first-child{
+		padding-top: 0px;
+	}
+	&>div:last-child{
+		padding-bottom: 0px;
+	}
+}
+
+.flex-horizontal-align-center{justify-content: center;}
+.flex-horizontal-align-left{justify-content: left;}
+.flex-horizontal-align-right{justify-content: right;}
+
+.flex-vertical-align-center{align-items: center;}
+.flex-vertical-align-top{align-items: top;}
+.flex-vertical-align-bottom{justify-items: bottom;}
+
+.flex-center-all{
+	justify-content: center;
+	align-items: center;
+}
+
+ul.inline{
+	li{
+		display: inline;
+	}
+}
+
+ul.inline-block{
+	li{
+		display: inline-block;
+	}
+}
+
+ul.no-style{
+	list-style: none;
+	padding: 0px;
+}

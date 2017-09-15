@@ -1,0 +1,28 @@
+//configs
+@import "./partials/configs/vars.scss";
+@import "./partials/configs/typography";
+@import "./partials/configs/colors.scss";
+
+//globals
+@import "./partials/globals/layout.scss";
+@import "./partials/globals/helpers.scss";
+@import "./partials/globals/text.scss";
+
+//components
+@import "./partials/components/footer.scss";
+@import "./partials/components/nav.scss";
+@import "./partials/components/iconTextBlock.scss";
+@import "./partials/components/header.scss";
+
+//pages
+@import "./partials/pages/about.scss";
+
+//breakpoints
+@import "./partials/breakpoints/1200px.scss";
+@import "./partials/breakpoints/1024px.scss";
+@import "./partials/breakpoints/768px.scss";
+@import "./partials/breakpoints/480px.scss";
+@import "./partials/breakpoints/320px.scss";
+
+//ie
+@import "./partials/ie/ie.scss";

@@ -1,0 +1,33 @@
+root = true
+
+[**.pug]
+indent_style = tab
+indent_size = 2
+
+[**.html]
+indent_style = tab
+indent_size = 2
+
+[**.css]
+indent_style = tab
+indent_size = 2
+
+[**.scss]
+indent_style = tab
+indent_size = 2
+
+[**.sass]
+indent_style = tab
+indent_size = 2
+
+[**.js]
+indent_style = tab
+indent_size = 2
+
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false

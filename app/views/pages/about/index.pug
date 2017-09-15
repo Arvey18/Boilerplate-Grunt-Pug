@@ -1,0 +1,15 @@
+extends ../../layout/layout.pug
+
+block navigation
+	-var selected = 'about';
+block content
+	div(class="page home-page")
+		div(class="header text-center background-dark-blue")
+			div(class="container")
+				h3(class="color-white mb-20") #{items.title}
+				p(class="color-white") #{items.description}
+		div(id="section2" class="pt-50 pb-50")
+			div(class="container")
+				h1(class="pb-20") - #{items.title}
+				div !{items.body}
+	include ../../components/footer.pug

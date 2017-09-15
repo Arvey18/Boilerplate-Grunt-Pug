@@ -1,0 +1,25 @@
+{
+  "name": "boilerplate-bower-pug",
+  "description": "This is a boilerplate using grunt task runner and pug for template with bower settings",
+  "main": "index.js",
+  "authors": [
+    "Arvey Jimenez (arve505@gmail.com)"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "grunt",
+    "pug",
+    "bower"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

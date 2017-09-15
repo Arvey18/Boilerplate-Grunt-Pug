@@ -1,0 +1,29 @@
+extends layout/layout.pug
+
+block content
+	div(class="page home-page")
+		div(class="header text-center background-dark-blue")
+			div(class="container")
+				h3(class="color-white mb-20") Welcome to Grunt and PUG Boilerplate
+				p(class="color-white") This is a boilerplate created using grunt and pug with bootstrap 3 ready. This boilerplate contains<br/>examples and codes the you can see on the files.
+		div(class="container pt-50 pb-50")
+			div(class="row icon-text-block text-center")
+				div(class="col-lg-4 col-md-4 col-sm-4 col-xs-12")
+					img(class="img-responsive margin-auto mb-20" src="public/images/grunt.png")
+					p(class="text-center")
+						a(href="https://gruntjs.com/" target="_blank") GRUNT
+					p(class="text-center small")
+						| Grunt is basically a build / task manager<br/>written on top of NodeJS.
+				div(class="col-lg-4 col-md-4 col-sm-4 col-xs-12")
+					img(class="img-responsive margin-auto mb-20" src="public/images/pug.png")
+					p(class="text-center")
+						a(href="" target="_blank") PUG
+					p(class="text-center small")
+						| NPM packages using for templating
+				div(class="col-lg-4 col-md-4 col-sm-4 col-xs-12")
+					img(class="img-responsive margin-auto mb-20" src="public/images/bootstrap-stack.png")
+					p(class="text-center")
+						a(href="" target="_blank") BOOTSTRAP
+					p(class="text-center small")
+						| Build responsive, mobile-first projects on<br/>the web with the world's most popular front-end component library.
+	include components/footer.pug

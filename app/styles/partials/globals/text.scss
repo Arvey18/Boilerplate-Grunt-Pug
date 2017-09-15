@@ -1,0 +1,76 @@
+p{
+	font-size: 15px;
+	line-height: 20px;
+	position: relative;
+	sup,sub{
+		font-size: 50%;
+    vertical-align: baseline;
+    position: relative;
+	}
+	sup{
+		top: -0.8em;
+	}
+	sub{
+		top: 0.8em;
+	}
+}
+
+small, .small{
+	font-size: 12px;
+	line-height: 16px;
+}
+
+big, .big{
+
+}
+
+.large{
+
+}
+
+b, .bold, strong{
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	&:hover{
+		text-decoration: underline;
+	}
+}
+
+h1, h2, h3, h4, h5{
+  position: relative;
+  color: $black;
+  sup{
+    font-size: 20%;
+    vertical-align: baseline;
+    position: relative;
+  }
+  sup{
+		top: -0.8em;
+	}
+	sub{
+		top: 0.8em;
+	}
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+h5{
+
+}

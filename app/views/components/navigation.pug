@@ -1,0 +1,19 @@
+
+nav(class="navbar navbar-default background-dark-gray border-none border-radius-none mb-0")
+  div(class="container background-dark-gray border-none")
+    div(class="navbar-header")
+      button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false")
+        span(class="sr-only") Toggle navigation
+        span(class="icon-bar")
+        span(class="icon-bar")
+        span(class="icon-bar")
+      a(class="navbar-brand" href="/") Brand
+    div(class="collapse navbar-collapse" id="bs-example-navbar-collapse-1")
+      ul(class="nav navbar-nav navbar-right")
+        each val, key in menu
+          if selected === key
+            li(class="active")
+              a(href=val, title=key)= key
+          else
+            li
+              a(href=val, title=key)= key
